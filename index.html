@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Score Board</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="score">
+        <div class="teams" id="teams">
+          <span class="team-count">  
+          <label for="teamCount">Number of Teams:</label>
+            <select id="teamCount" onchange="changeTeamCount()">
+                <option value=""></option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+          </span>
+        </div>
+        <div id="scoreBoard"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

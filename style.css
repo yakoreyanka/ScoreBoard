@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#scoreBoard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; /* Adjust the width as needed */
+  margin-right: 10px; /* Adjust the margin between teams */
+  margin-bottom: 10px; /* Adjust the margin between rows */
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.team-name {
+  font-weight: bold;
+  font-size: 60px;
+  align-items: center;
+  width: 300px; /* Adjust the width as needed */
+  margin-bottom: 5px;
+  color: #044722;
+}
+
+.score-value {
+  font-size: 50px;
+  color: #800808;
+  font-weight: bold;
+}
+
+.score-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.score-buttons button {
+  margin: 0 50px;
+  padding: 50px 100px;
+  font-size: 50px;
+  background-color: #5e72e4;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.score-buttons button:hover {
+  background-color: #4364b1;
+}
+
+.score-buttons button:active {
+  background-color: #33478d;
+}
+
+.button-container {
+  display: flex; /* 가로 방향으로 정렬 */
+  justify-content: center; /* 가운데 정렬 */
+  margin-top: 10px; /* 버튼과 팀 이름 사이의 여백 */
+}
+
+.button-container button {
+  margin: 0 5px;
+  padding: 10px 20px; /* 버튼 크기 조정 */
+  background-color: #0040ff; /* 진한 파랑 배경 색 */
+  color: #fff; /* 텍스트 색상 */
+  border: none; /* 테두리 제거 */
+  border-radius: 5px; /* 둥근 테두리 */
+  font-size: 30px; /* 글꼴 크기 */
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #0020b3; /* 호버 시 배경 색 변경 */
+}
+
+.team-count {
+  font-family: "Arial", sans-serif; /* 원하는 폰트로 변경 */
+  color: #ff3366; /* 원하는 색상으로 변경 */
+  font-size: 30px; /* 글꼴 크기 */
+  font-weight: bold;
+}
+
+.team-count select {
+  font-family: "Arial", sans-serif; /* 원하는 폰트로 변경 */
+  color: #ff3366; /* 원하는 색상으로 변경 */
+  font-size: 30px; /* 글꼴 크기 */
+  font-weight: bold;
+}
+
